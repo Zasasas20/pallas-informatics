@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.Header{
+    display: flex;
+    height: 36px;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #51626e;
+    width: auto ;
+}
+
+.Header button{
+    border-color: transparent;
+    background-color: transparent;
+    color: #edecee;
+    font-family: Helvetica;
+}
+
+.Header button:hover{
+    opacity: 50%;
+}
+
+.Ability:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+}
+
+.Left-Header{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    background-color: #1d282f;
+}
+
+.Ability{
+    border: transparent;
+    background-color: transparent;
+    opacity: 70%;
+}   
+
+a{text-decoration: none; color: #edecee;}
+
+.Image-Block{
+    background-image: url(images/Pallas-background.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 200px;
+    gap: 128px;
+}
+
+.About{color: #edecee; font-family: Futura, Helvetica; font-weight: bold; font-size: 64px;}
+
+.Text{color: #edecee; font-family: Helvetica; font-weight: 18px;}
